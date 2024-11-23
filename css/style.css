@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #647679ae;
+    color: #efd5af;
+    border: 2px solid #351e0b;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #5b442d;
+    color: #b89d86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: -5rem;
+    padding: 0 15rem;
+    clip-path: polygon(51% 21%, 100% 0, 100% 50%, 100% 78%, 100% 100%, 51% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #6c878f74;
+    border: 2px solid black;
+    color: #cec4af;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2); 
+}
+
+.packaging-text {
+    background-color: #422f26;
+    color: #cfbfb4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #3a39296f;
+    border: 2px solid  black;
+    color: rgb(243, 248, 252);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #ebaf81;
+    color: rgb(167, 167, 142);
+    font-size: 2rem;
+    height: 200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(170, 170, 143);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: rgb(229, 155, 115);
+    transform: scale(1.2);
+}
